@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: <AWS ECR REPO>/mynginx:latest
+        image: mukuberepo/mynginx:latest
         ports:
         - containerPort: 80
